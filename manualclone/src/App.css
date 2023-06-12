@@ -5,6 +5,8 @@ body {
 
 header {
     background-color: #e5e5e5;
+    display: flex;
+    justify-content: space-between;
 }
 ul {
     text-decoration: none;
@@ -12,4 +14,7 @@ ul {
 }
 ul li {
     text-decoration: none;
+}
+.manual-select {
+    outline: 2px solid orange;
 }

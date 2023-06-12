@@ -20,6 +20,25 @@ function App() {
         </ul>
       </div>
      </header>
+     <div className='manual-select'>
+      <h2>Locate the Free PDF Manual You Need!</h2>
+
+      <select name='Brand'>
+        <option value="Select a Brand...">Select a Brand...</option>
+        <option value="Example">Example</option>
+        <option value="Example">Example</option>
+      </select>   
+         <select name='Model'>
+        <option value="Select a Model...">Select a Model...</option>
+        <option value="Example">Example</option>
+        <option value="Example">Example</option>
+      </select>
+      <select name='Category'>
+        <option value="Select a Category...">Select a Category...</option>
+        <option value="Example">Example</option>
+        <option value="Example">Example</option>
+      </select>
+     </div>
     </>
   )
 }
