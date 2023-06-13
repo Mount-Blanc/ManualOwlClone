@@ -39,6 +39,29 @@ function App() {
         <option value="Example">Example</option>
       </select>
      </div>
+     <div>
+      <p>We have 810,573 Manuals, Service Guides and Product Documents all available for Free!!!</p>
+     </div>
+     <div>
+      <h2>Featured Manual Categories</h2>
+     </div>
+     <div>
+      <h2>Featured Products</h2>
+     </div>
+     <div>
+      <h2>Featured Manuals</h2>
+     </div>
+     <footer>
+      <ul>
+        <li><a href=''>Home</a></li>
+        <li><a href=''>Manual Index</a></li>
+        <li><a href=''>Manual Categories</a></li>
+        <li><a href=''>About Us</a></li>
+        <li><a href=''>Contact Us</a></li>
+        <li><a href=''>Privacy</a></li>
+
+      </ul>
+     </footer>
     </>
   )
 }
