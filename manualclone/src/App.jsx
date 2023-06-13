@@ -11,7 +11,7 @@ function App() {
         <input placeholder='Manual Search'/>
       </div>
       <div>
-        <ul>
+        <ul className='links'>
           <li><a href=''>Home</a></li>
           <li><a href=''>My Manuals+</a></li>
           <li><a href=''>Manual Index</a></li>
@@ -39,20 +39,20 @@ function App() {
         <option value="Example">Example</option>
       </select>
      </div>
-     <div>
+     <div className='banner'>
       <p>We have 810,573 Manuals, Service Guides and Product Documents all available for Free!!!</p>
      </div>
-     <div>
+     <div className='content-section'>
       <h2>Featured Manual Categories</h2>
      </div>
-     <div>
+     <div className='content-section'>
       <h2>Featured Products</h2>
      </div>
-     <div>
+     <div className='content-section'>
       <h2>Featured Manuals</h2>
      </div>
      <footer>
-      <ul>
+      <ul className='footer-links'>
         <li><a href=''>Home</a></li>
         <li><a href=''>Manual Index</a></li>
         <li><a href=''>Manual Categories</a></li>

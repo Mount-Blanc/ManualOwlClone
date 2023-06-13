@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
 }
+h2 {
+    color:white;
+}
 
 header {
     background-color: #e5e5e5;
@@ -17,4 +20,22 @@ ul li a {
 }
 .manual-select {
     outline: 2px solid orange;
+}
+footer {
+    background-color: black;
+}
+.banner {
+    background-color: #e58311;
+    padding:15px;
+    border-radius: 10px;
+    color:white;
+}
+.links {
+    display: flex;
+}
+.footer-links {
+    display: flex;
+}
+.content-section {
+    background-color: rgb(100, 100, 100);
 }
